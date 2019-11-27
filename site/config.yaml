@@ -1,5 +1,5 @@
-baseURL: https://example.com
-languageCode: en-us
+baseURL: https://compassionate-yalow-9de444.netlify.com
+languageCode: ja-jp
 title: Personal website and blog
 theme: hugo-refresh
 # theme: ../..

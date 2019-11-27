@@ -1,6 +1,14 @@
-{{ define "main" }}
+{{- define "main" -}}
 
-{{ partial "jumbotron" (dict "imageUrl" "/img/7.jpg" "title" "This is where the heading goes" "subtitle" "This is where the subtitle goes") }}
-{{ .Content }}
+    {{- partial "navbar.html" . -}}
+    {{- partial "navbar-clone.html" . -}}
+    {{- partial "single/content.html" . -}}
+    
+    {{- partial "footer.html" . -}}
 
-{{ end }}
+    <!-- Back To Top Button -->
+    <div id="backtotop"><a href="#"></a></div>
+
+    {{- partial "sidebar.html" . -}}
+
+{{- end -}}
